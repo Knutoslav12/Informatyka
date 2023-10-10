@@ -6,7 +6,6 @@ for i in range(1, ilosc_znakow, 2):
     print(tekst[i])
 
 # zadanie 2
-# dwa pierwsze podpunkty są te same
 print(tekst[::-1])
 
 # zadanie 3 (prawdopodobnie będzie inne)
