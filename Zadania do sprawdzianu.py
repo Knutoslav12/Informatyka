@@ -4,6 +4,7 @@ import random # zaimportowałem bibliotekę random na potrzeby zadania 5
 print("---ZADANIE NR 1---")
 tekst = input("Podaj tekst: ")
 dl_tekst = len(tekst)
+print("Długość tekstu:", dl_tekstu)
 for i in range(1, dl_tekst, 2):
     print(tekst[i])
 
