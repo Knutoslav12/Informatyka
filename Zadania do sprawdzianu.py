@@ -10,10 +10,13 @@ for i in range(1, dl_tekst, 2):
 
 # zadanie 2
 print("---ZADANIE NR 2---")
+tekst = input("Podaj tekst: ")
 print(tekst[::-1])
 
 # zadanie 3
 print("---ZADANIE NR 3---")
+tekst = input("Podaj tekst: ")
+dl_tekst = len(tekst)
 tekst_zmieniony = ''
 for i in range(0, dl_tekst):
     if i%2 == 0:
@@ -24,6 +27,8 @@ print(tekst_zmieniony)
 
 # zadanie 4
 print("---ZADANIE NR 4---")
+tekst = input("Podaj tekst: ")
+dl_tekst = len(tekst)
 tekst_zmieniony = ''
 for i in range(0,dl_tekst):
     if i == 0 or i == 1 or i == dl_tekst - 1 or i == dl_tekst - 2:
@@ -35,6 +40,7 @@ print(tekst_zmieniony)
 # zadanie 5
 # SPOSÓB NR 1 (z biblioteką random)
 print("---ZADANIE NR 5 (sposób 1)---")
+tekst = input("Podaj tekst: ")
 tekst_odwr = tekst[::-1]
 if tekst_odwr == tekst:
     print("Wyraz", tekst, "jest palindromem.") # tekst jest palindromem, program kończy działanie
@@ -50,6 +56,7 @@ else:
     
 # SPOSÓB NR 2 (bez biblioteki random)tekst_odwr = tekst[::-1]
 print("---ZADANIE NR 5 (sposób 2)---")
+tekst = input("Podaj tekst: ")
 tekst_odwr = tekst[::-1]
 if tekst_odwr == tekst:
     print("Wyraz", tekst, "jest palindromem.") # tekst jest palindromem, program kończy działanie
