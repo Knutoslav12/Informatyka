@@ -1,0 +1,17 @@
+# sortowanie przez wstawianie
+(73852)
+
+podnosimy 5, bierzemy 2
+jeżeli 5>2 to przestawiamy ją na miejsce 2
+
+(73825)
+
+podnosimy 8, bierzemy 2
+jeżeli 8>2 to wstawiamy ją na miejsce 2
+
+(73258)
+
+podnosimy 3, bierzemy 2
+jeżeli 3>2 to przesuwamy na miejsce 2
+
+(72358)
