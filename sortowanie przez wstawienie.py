@@ -13,7 +13,7 @@ for i in range(n):
 
 # właściwy program
 for i in range(1, n):
-    pom = liczby[i]     # zmienna pomocnicza (element z listy)
+    pom = liczby[i]     # zmienna pomocnicza (element z listy), "ta liczba podniesiona"
     j = i-1
     while j >= 0 and liczby[j] > pom:
         liczby[j+1] = liczby[j]
