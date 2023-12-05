@@ -55,3 +55,12 @@
         podnosimy 3, bierzemy 2
         jeżeli 3>2 to przesuwamy na miejsce 2
         (72358)
+2) Podejście zachłanne w rozwiązywaniu problemów - wydawanie reszty
+    Automat - dostępne monety - 5, 2, 2, 1
+    10zł, produkt za 4zł
+    do wydania 6 zł
+    sprawdza czy 5<=5
+    6-1
+    sprawdza czy 2<=1
+    jeśli nie to sprawdza czy 1<=1
+    wydaje 5 i 1 zł
