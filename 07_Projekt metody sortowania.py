@@ -22,9 +22,9 @@ def menu():
 def powrot():
     while True:
         q = input('Czy chcesz powrócić do menu? [T/N]: ')
-        if q == 'T' or 't':
+        if q == 'T' or q == 't':
             break
-        elif q == 'N' or 'n':
+        elif q == 'N' or q == 'n':
             exit(0)
         else:
             continue
