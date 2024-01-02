@@ -64,3 +64,11 @@
     sprawdza czy 2<=1
     jeśli nie to sprawdza czy 1<=1
     wydaje 5 i 1 zł
+
+3) Programowanie zachłanne - kolorwanie mapy
+
+    1. Numerujemy pola, 1 - czerwony, 2 - żółty, 3 - zielony, 4 - niebieski, 5 - fioletowy
+    2. Bierzemy wierzchołek, kolorujemy pierwszym dostępnym kolorem (czerwony)
+    3. Szukamy pól sąsiadujących, wykreślamy wybrany kolor (czerwony), kolorujemy kolejne pole kolejnym kolorem (żółty)
+    4. Wykreślamy kolor nr 2 (odkreślamy czerwony)
+    ZASADA: zawsze bierzemy pierwszy dostępny kolor
