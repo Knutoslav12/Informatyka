@@ -1,0 +1,17 @@
+Zadanie 1.
+Napisz program (w języku Python), metodą rekurencyjną,  obliczający n-ty wyraz ciągu:
+	3, 6, 9, 27, 121, 1633, 98796, …, 
+Wyświetl kolejne wyrazy ciągu (od wyrazu pierwszego do wyrazu n-tego).
+
+Zadanie 2.
+Napisz program (w języku Python), metodą rekurencyjną,  obliczający n-tą sumę ciągu:
+	5, 7, 0, 1, 1, 2, 0, 2, 2, 1, 0, 1, 1, 2, 0, …, 
+
+Zadanie 3.
+Napisz program skracający ułamki zwykłe.
+
+Zadanie 4.
+Zespół programistyczny A spotyka się co n-dni, a zespół B co m dni. Po ilu dniach spotkają się te dwa zespoły? Wykorzystaj metodę rekurencyjną.
+
+Zadanie 5.
+Oblicz średnią n – wyrazów ciągu liczb Fibonacciego.
